@@ -5,7 +5,7 @@ global.APIs = {
 
 	zenz: 'https://zenzapi.xyz',
 
-}
+
 
 // Apikey Website Api
 
@@ -13,7 +13,7 @@ global.APIKeys = {
 
 	'https://zenzapi.xyz': 'Masukin Apikey', // Ambil apikey di zenz biar fitur yg make api work
 
-} 
+
   "ownerNumber": "6282133650902@s.whatsapp.net",
   "botName": "SifaBot-MD",
   "ownerName": "Rainer",
