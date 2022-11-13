@@ -422,7 +422,7 @@ case 'verify':{
 if (cekUser("id", sender) !== null) return reply('Kamu sudah terdaftar !!')
 var res_us = `${makeid(10)}`
 var diacuk = `${db_user.length+1}`
-var user_name = `#GRXY${diacuk}`
+var user_name = `#SFBU${diacuk}`
 let object_user = {"id": sender, "name": user_name, "seri": res_us, "premium": false}
 db_user.push(object_user)
 fs.writeFileSync('./database/pengguna.json', JSON.stringify(db_user))
@@ -458,7 +458,7 @@ case 'grupbot':
 case 'groupbot':
 if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
 reply(`*Forum Bot Whatsapp*
-https://chat.whatsapp.com/E3zewfxrc5pKE6Rzb3BuqG`)
+https://chat.whatsapp.com/Jbjygf6VdalEwE60WJHhsz`)
 break
 case 'infoupdate':
 reply('-')
@@ -468,7 +468,7 @@ reply(`_SCRIPT BOT INI DIJUAL_
 _HARGA 80K JIKA MINAT?_
 
 *Whatsapp Admin*
-Wa.me/6283834558105`)
+Wa.me/6282133650902`)
 break
 case 'owner':{
 if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
