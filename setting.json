@@ -1,0 +1,12 @@
+const fs = require('fs')
+const chalk = require('chalk')
+
+// Website Api
+global.APIs = {
+	zenz: 'https://zenzapi.xyz',
+}
+
+// Apikey Website Api
+global.APIKeys = {
+	'https://zenzapi.xyz': 'Masukin Apikey', // Ambil apikey di zenz biar fitur yg make api work
+}
